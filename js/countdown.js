@@ -6,7 +6,7 @@
 
 		//array of custom settings
 		var settings = { 
-			'date': new Date('September 15, 2018 14:00:00 GMT'),
+			'date': new Date('September 15, 2018 09:00:00 GMT'),
 			'format': null
 		};
 		console.log(settings);
@@ -19,16 +19,17 @@
 		function countdown_proc() {
 			//console.log(Date.parse(settings['date']))
 			//console.log(settings['date'])
-			eventDate = parseInt(Date.parse(new Date('September 15, 2018 14:00:00 GMT'))) / 1000;
+			eventDate = parseInt(Date.parse(new Date('September 15, 2018 09:00:00 GMT'))) / 1000;
 			currentDate = parseInt(Date.parse(new Date())) / 1000 ;
 			
 			if(eventDate <= currentDate) {
 				callback.call(this);
 				clearInterval(interval);
 			}
-
+			console.log(eventDate);
+			console.log(currentDate);
 			seconds = parseInt(eventDate) - parseInt(currentDate);
-	
+			console.log(seconds);
 			//console.log(seconds)
 			days = Math.floor(seconds / (60 * 60 * 24)); //calculate the number of days
 			seconds -= days * 60 * 60 * 24; //update the seconds variable with no. of days removed
