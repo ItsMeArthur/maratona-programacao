@@ -481,7 +481,7 @@ textarea.form-control {
 	border: 0;
 	border-radius: 0;
 	background-color: rgba(3, 4, 4, 0.25);
-	margin: 30px 0 0;
+	margin: 40px 0 0;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
@@ -499,7 +499,7 @@ textarea.form-control {
 }
 
 .navbar-default .navbar-nav li a {
-	font-size: 13px;
+	font-size: 14px;
 	color: #fff;
 	line-height: 40px;
 	display: block;
@@ -1177,7 +1177,7 @@ address a {
 }
 
 .brand-slider .slick-dots {
-	bottom: -50px;
+	bottom: -50px;	
 }
 
 .slick-dots li{
@@ -1190,7 +1190,7 @@ address a {
 
 .slick-dots li button {
     width: 15px;
-	height: 15px;
+    height: 15px;
 }
 
 .slick-dots li:before {
@@ -1217,8 +1217,7 @@ address a {
 
 .slick-dots li:before {
     position: absolute;
-	content: "";
-	color: #4B82C3;
+    content: "";
 }
 
 /* Gb Contact */
@@ -1301,7 +1300,7 @@ address a {
 
 .about-info {
 	font-size: 14px;
-	color: #333;
+	color: #aeaeae;
 	line-height: 24px;
 	max-width: 470px;
 }
@@ -1320,30 +1319,6 @@ address a {
 }
 
 .about-info .buttons {
-	margin-top: 45px;
-}
-
-.how-participate-info {
-	font-size: 14px;
-	color: #333;
-	line-height: 24px;
-	max-width: 470px;
-}
-
-.how-participate-info h1 {
-	font-size: 30px;
-	color: #333;
-	margin: 15px 0 0;
-}
-
-.how-participate-info h2 {
-	font-size: 18px;
-	color: #333;
-	margin: 5px 0 35px;
-	font-weight: normal;
-}
-
-.how-participate-info .buttons {
 	margin-top: 45px;
 }
 
