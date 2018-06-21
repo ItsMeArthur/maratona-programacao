@@ -6,7 +6,7 @@
 
 		//array of custom settings
 		var settings = { 
-			'date': new Date('September 15, 2018 14:00:00 GMT'),
+			'date': new Date('September 15, 2018 09:00:00 GMT'),
 			'format': null
 		};
 		console.log(settings);
@@ -19,7 +19,7 @@
 		function countdown_proc() {
 			//console.log(Date.parse(settings['date']))
 			//console.log(settings['date'])
-			eventDate = parseInt(Date.parse(new Date('September 15, 2018 14:00:00 GMT'))) / 1000;
+			eventDate = parseInt(Date.parse(new Date('September 15, 2018 09:00:00 GMT'))) / 1000;
 			currentDate = parseInt(Date.parse(new Date())) / 1000 ;
 			
 			if(eventDate <= currentDate) {

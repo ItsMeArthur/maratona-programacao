@@ -2110,3 +2110,32 @@ a, input, .btn, .btn:before,
 .style-chooser-inner ul li.preset6 a {
 	background-color: #8000ff;
 }
+
+.text-justify {
+	text-align: justify;
+}
+
+.white-url {
+	color: #f0f3f5;
+} 
+
+.white-url:hover {
+	color: #f0f3f5;
+}
+
+.logo-slider {
+	padding-bottom: 0px;
+}
+
+.logo-slider .slick-prev,
+.logo-slider .slick-next {
+	display: none !important;
+}
+
+.logo-slider img {
+	display: inline-block;
+}
+
+.logo-slider .logo {
+	margin: 0 15px;
+}
