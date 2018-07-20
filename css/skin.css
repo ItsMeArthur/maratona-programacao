@@ -6,7 +6,7 @@
 .navbar-default .navbar-nav li a:focus,
 .navbar-nav .gb-dropdown-menu li.active a,
 .navbar-nav .gb-dropdown-menu li a:hover {
-	background-color: #4B82C3;
+	background-color: #e60025;
 }
 
 
@@ -37,7 +37,7 @@
 .pagination>.active>span:hover,
 .tag-cloud a:hover,
 .gb-dropdown-menu {
-	background-color: #4B82C3;
+	background-color: #e60025;
 }
 
 a, a:hover, 
@@ -57,31 +57,29 @@ a, a:hover,
 .cta-info .btn:hover, .cta-info .btn.button-white, .gb-post .read-more a,
 .gb-post .share a, .entry-content a:hover, .pagination>li>a, 
 .pagination>li>span   {
-	color: #4B82C3;
+	color: #e60025;
 }
 
 .gb-time , .event, .btn.btn-default, .btn.button-red,
 .pagination>li>a, .pagination>li>span,
 .tag-cloud a:hover, .add-comments .form-control:focus,
 .form-control:focus {
-	border: 1px solid #4B82C3;
+	border: 1px solid #e60025;
 }
 
 .speaker-social,
 .gallery-overlay {
-	background-color: #4B82C3;
+	background-color: #e60025;
 }
 
 .btn:before,
 .btn:after,
 .cta-info .btn.button-white:before,
 .cta-info .btn.button-white:after {
-    border-top: 27px solid #4B82C3;
-    border-bottom: 27px solid #4B82C3;	
+    border-top: 27px solid #e60025;
+    border-bottom: 27px solid #e60025;	
 }
 
 blockquote {
-	border-left-color: #4B82C3;
+	border-left-color: #e60025;
 }
-
-
