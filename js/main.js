@@ -54,7 +54,7 @@ jQuery(function ($) {
             infinite: true,
             slidesToShow: 5,
             autoplay:true,
-            autoplaySpeed:10000,
+            autoplaySpeed:4000,
             slidesToScroll: 2,
             responsive: [
                 {
