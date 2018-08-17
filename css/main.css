@@ -1155,7 +1155,7 @@ address a {
 
 .gb-brand {
 	background-color: #e60025;
-	background-image: url();
+	background-image: url(../images/bg/brand-bg.jpg);
 }
 
 .brand-slider {
@@ -1277,7 +1277,7 @@ address a {
 
 .gb-cta-2 {
 	background-color: #e60025;
-	background-image: url();
+	background-image: url(../images/bg/cta-2-bg.jpg);
 }
 
 .gb-cta-2 .title-section {
